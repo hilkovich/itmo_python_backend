@@ -25,4 +25,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run tests
-        run: pytest -vv --strict --showlocals test_hw_2.py
+        run: pytest -vv --strict --showlocals ./tests/test_hw_2.py
