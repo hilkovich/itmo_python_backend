@@ -11,5 +11,8 @@
 7. ```uvicorn hw_1:app```
 8. ```pytest test_hw_1.py (в другом терминале сделав п.2 и п.6)```
 
+# Скриншет ДЗ 3
+![dashboard](docs/monitoring/dashboard.png)
+
 # Автор
 Хилькович Николай Федорович

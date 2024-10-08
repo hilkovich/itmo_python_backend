@@ -3,7 +3,7 @@ from http import HTTPStatus
 from typing import List, Optional
 from fastapi import FastAPI, HTTPException, Response
 
-from homework_2.models import Cart, Item, ItemCart, ItemAdd
+from models import Cart, Item, ItemCart, ItemAdd
 
 app = FastAPI(title="Shop API")
 

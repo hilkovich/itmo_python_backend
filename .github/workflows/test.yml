@@ -2,9 +2,9 @@ name: Run python tests
 
 on:
   push:
-    branches: ["main"]
+    branches: ["hw2"]
   pull_request:
-    branches: ["main"]
+    branches: ["hw2"]
 
 jobs:
   build:
