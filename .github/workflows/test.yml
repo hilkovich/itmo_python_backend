@@ -2,9 +2,9 @@ name: Run python tests
 
 on:
   push:
-    branches: ["hw2"]
+    branches: ["hw_4"]
   pull_request:
-    branches: ["hw2"]
+    branches: ["hw_4"]
 
 jobs:
   build:
@@ -25,4 +25,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run tests
-        run: pytest -vv --strict --showlocals ./tests/test_hw_2.py
+        run: pytest -vv --strict --showlocals ./tests/hw/test_demo_service.py
